@@ -8,7 +8,7 @@ public class Sample {
       if (myObj.createNewFile()) {
         System.out.println("File created and updated: " + myObj.getName());
       } else {
-        System.out.println("Vinodh File already exists.");
+        System.out.println("Navya File already exists.");
       }
     } catch (IOException e) {
       System.out.println("An error occurred.");
