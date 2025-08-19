@@ -6,9 +6,9 @@ public class Sample {
     try {
       File myObj = new File("filename.txt");
       if (myObj.createNewFile()) {
-        System.out.println("File created: " + myObj.getName());
+        System.out.println("File created and updated: " + myObj.getName());
       } else {
-        System.out.println("File already exists.");
+        System.out.println("Vinodh File already exists.");
       }
     } catch (IOException e) {
       System.out.println("An error occurred.");
